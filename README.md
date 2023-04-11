@@ -7,19 +7,25 @@ You need to have your Discord bot set up on the Discord Developer Portal with al
 
 You can create and configure a Discord bot at https://discord.com/developers/applications, and you can find your personal OpenAI API key at https://platform.openai.com/account/api-keys.
 
+Permissions for the Discord bot: </br>
+   Everything under "Text Permissions" </br>
+
+Scopes for the Discord bot: </br>
+   Just "bot." </br>
+   
+Make sure to enable all intents for the Discord bot.
+
 **Installation** </br>
 1. Clone this repository: </br>
-`git clone https://github.com/yourusername/your-discord-bot.git`
-2. Change into the cloned directory: </br>
-`cd your-discord-bot`
-3. Install the required dependencies: </br>
+`git clone https://github.com/SyntaxWarrior30/Python-Discord-Bot.git`
+2. Install the required dependencies: </br>
 `pip install -r requirements.txt`
-4. Create a .env file with your Discord bot token and ChatGPT API key: </br>
+3. Create a .env file with your Discord bot token and ChatGPT API key: </br>
 `token={Your Discord bot token}` </br>
 `api_key={Your ChatGPT API Key}` </br>
 Make sure to reference the .env.example file for guidance.
-5. Run the bot: </br>
-`python bot.py`
+4. Run the bot: </br>
+`python main.py`
 
 **Usage** </br>
 This bot's prefix for text is "!" and its prefix for images is "/". Prefix for text is unnecessary in DM channels.</br>
