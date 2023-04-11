@@ -22,7 +22,7 @@ Make sure to reference the .env.example file for guidance.
 `python bot.py`
 
 **Usage** </br>
-This bot's prefix for text is "!" and its prefix for images is "/". </br>
+This bot's prefix for text is "!" and its prefix for images is "/". Prefix for text is unnecessary in DM channels.</br>
 Use the following commands to interact with the bot:
 
 !chat [prompt] - Generates a response to the given prompt using ChatGPT 3.5 Turbo API.</br>
