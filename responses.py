@@ -7,6 +7,8 @@ def configure():
     load_dotenv()
 
 
+configure()
+
 openai.api_key = os.getenv('api_key')
 
 
