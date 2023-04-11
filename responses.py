@@ -9,6 +9,7 @@ def configure():
 
 configure()
 
+
 openai.api_key = os.getenv('api_key')
 
 
