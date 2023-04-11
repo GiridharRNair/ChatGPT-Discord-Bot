@@ -15,8 +15,8 @@ You can create and configure a Discord bot at https://discord.com/developers/app
 3. Install the required dependencies: </br>
 `pip install -r requirements.txt`
 4. Create a .env file with your Discord bot token and ChatGPT API key: </br>
-`DISCORD_TOKEN=<your-discord-bot-token>` </br>
-`OPENAI_API_KEY=<your-openai-api-key>` </br>
+`token={Your Discord bot token}` </br>
+`api_key={Your ChatGPT API Key}` </br>
 Make sure to reference the .env.example file for guidance.
 5. Run the bot: </br>
 `python bot.py`
