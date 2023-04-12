@@ -2,6 +2,7 @@ import discord
 import responses
 from dotenv import load_dotenv
 import os
+import asyncio
 
 
 def configure():
@@ -42,9 +43,10 @@ def run_discord_bot():
 
         print(f'{username} said: "{user_message}" ({channel})')
 
-        if channel == "private":
-            await send_message(message, user_message, is_private=True)
-        else:
-            await send_message(message, user_message, is_private=False)
+        async with message.channel.typing():
+            if channel == "private":
+                await send_message(message, user_message, is_private=True)
+            else:
+                await send_message(message, user_message, is_private=False)
 
     client.run(token)
