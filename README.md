@@ -18,13 +18,15 @@ Make sure to enable all intents for the Discord bot.
 **Installation** </br>
 1. Clone this repository: </br>
 `git clone https://github.com/SyntaxWarrior30/Python-Discord-Bot.git`
-2. Install the required dependencies: </br>
+2. Enter the Discord bot's current working directory: </br>
+`cd Python-Discord-Bot`
+3. Install the required dependencies: </br>
 `pip install -r requirements.txt`
-3. Create a .env file with your Discord bot token and ChatGPT API key: </br>
+4. Create a .env file with your Discord bot token and ChatGPT API key: </br>
 `token={Your Discord bot token}` </br>
 `api_key={Your ChatGPT API Key}` </br>
 Make sure to reference the .env.example file for guidance.
-4. Run the bot: </br>
+5. Run the bot: </br>
 `python main.py`
 
 **Usage** </br>
