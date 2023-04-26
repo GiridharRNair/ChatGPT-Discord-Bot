@@ -2,7 +2,7 @@
 
 This Python Discord bot uses the ChatGPT 3.5 Turbo API to generate text and images based on user input.
 
-**Prerequisites** </br>
+## Prerequisites </br>
 You need to have your Discord bot set up on the Discord Developer Portal with all intents and necessary permissions enabled, and your OpenAI API key ready.
 
 You can create and configure a Discord bot at https://discord.com/developers/applications, and you can find your personal OpenAI API key at https://platform.openai.com/account/api-keys.
@@ -15,7 +15,7 @@ Scopes for the Discord bot: </br>
    
 Make sure to enable all intents for the Discord bot.
 
-**Installation** </br>
+## Installation </br>
 1. Clone this repository: </br>
 `git clone https://github.com/SyntaxWarrior30/Python-Discord-Bot.git`
 2. Enter the Discord bot's current working directory: </br>
@@ -23,10 +23,12 @@ Make sure to enable all intents for the Discord bot.
 3. Install the required dependencies: </br>
 `pip install -r requirements.txt`
 4. Input your Discord bot token and ChatGPT API key in the .env file: </br>
+`token={Your Discord bot token}` <br/>
+`api_key={Your ChatGPT API key}`
 5. Run the bot: </br>
 `python main.py`
 
-**Usage** </br>
+## Usage </br>
 This bot's prefix for text is "!" and its prefix for images is "/". Prefix for text is unnecessary in DM channels.</br>
 Use the following commands to interact with the bot:
 
