@@ -1,4 +1,4 @@
-# Discord-ChatGPT-Bot
+# ChatGPT-Discord-Bot
 
 This Python Discord bot uses the ChatGPT 3.5 Turbo API to generate text and images based on user input.
 
@@ -19,7 +19,7 @@ Make sure to enable all intents for the Discord bot.
 1. Clone this repository: </br>
 `git clone https://github.com/SyntaxWarrior30/Python-Discord-Bot.git`
 2. Enter the Discord bot's current working directory: </br>
-`cd Python-Discord-Bot`
+`cd ChatGPT-Discord-Bot`
 3. Install the required dependencies: </br>
 `pip install -r requirements.txt`
 4. Input your Discord bot token and ChatGPT API key in the .env file: </br>
