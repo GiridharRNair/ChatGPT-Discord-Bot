@@ -2,7 +2,6 @@ import discord
 import responses
 from dotenv import load_dotenv
 import os
-import asyncio
 
 
 def configure():
